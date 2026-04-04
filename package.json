@@ -1,6 +1,6 @@
 {
   "name": "lite-matter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ultra lightweight, zero-bloat frontmatter extractor.",
   "type": "module",
   "files": [
@@ -8,6 +8,14 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
   "scripts": {
     "build": "tsc"
   },
