@@ -32,11 +32,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/docmd-io/docmd.git",
+    "url": "git+https://github.com/docmd-io/lite-matter.git",
     "directory": "lite-matter"
   },
   "bugs": {
-    "url": "https://github.com/docmd-io/docmd/issues"
+    "url": "https://github.com/docmd-io/lite-matter/issues"
   },
   "homepage": "https://docmd.io",
   "funding": "https://github.com/sponsors/mgks",
